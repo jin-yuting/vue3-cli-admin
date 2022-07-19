@@ -53,10 +53,10 @@ export default {
 
     })
     // API end
-    // 数据
+    // 数据 - 定义基本数据
     let name = ref('张三')
     let age = ref(18)
-
+    // 定义复杂类型数据
     let job = reactive({
       type:'前端开发工程师',
       salary:'30k',
