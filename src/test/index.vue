@@ -24,11 +24,12 @@
 
 <script>
 // import {h} from 'vue'
-import Demo from '../components/Demo.vue'
-import customRefDemo from '../components/customRefDemo.vue'
-import Child from '../components/Child.vue'
+import Demo from '../components/test/Demo.vue'
+import customRefDemo from '../components/test/customRefDemo.vue'
+import Child from '../components/test/Child.vue'
 
-import {ref,reactive,onBeforeMount,onMounted,onBeforeUpdate,onUpdated,onBeforeUnmount,onUnmounted, toRefs,provide} from 'vue'
+import {ref,reactive, toRefs,provide,
+onBeforeMount,onMounted,onBeforeUpdate,onUpdated,onBeforeUnmount,onUnmounted} from 'vue'
 export default {
   name: 'App',
   components:{Demo,customRefDemo,Child},

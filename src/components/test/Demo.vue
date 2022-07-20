@@ -20,7 +20,7 @@
 </template>
 <script>
 import {ref,reactive,computed,watch,toRef,toRefs,shallowReactive} from 'vue'
-import usePoint from '../hooks/usePoint'
+import usePoint from '../../hooks/usePoint'
 export default {
   name: 'Demo',
   props:['msg','school'],

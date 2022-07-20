@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Son from '../components/Son.vue'
+import Son from './Son.vue'
 export default {
   name:'Child',
   components:{Son}

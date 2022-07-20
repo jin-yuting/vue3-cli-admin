@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Dialog from '../components/Dialog.vue'
+import Dialog from './Dialog.vue'
 import {inject } from 'vue'
 export default{
   name:'Son',
