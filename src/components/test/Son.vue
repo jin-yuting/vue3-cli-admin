@@ -1,7 +1,6 @@
 <template>
   <div class="son">
     <h3>我是Son组件（孙）{{job.type}}-{{job.salary}}</h3>
-   
     <Dialog />
   </div>
 </template>
