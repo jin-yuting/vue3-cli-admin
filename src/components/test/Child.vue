@@ -10,7 +10,11 @@
 import Son from './Son.vue'
 export default {
   name:'Child',
-  components:{Son}
+  components:{Son},
+  data(){
+    return {
+    }
+  }
 }
 </script>
 <style>
